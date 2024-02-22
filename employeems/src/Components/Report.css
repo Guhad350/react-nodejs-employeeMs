@@ -1,0 +1,50 @@
+/* Report.css */ */
+
+.report-container {
+  max-inline-size: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block-end: 20px;
+  
+}
+
+.header h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.header-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.search input{
+  margin-inline-end:10px;
+
+}
+.print button{
+  background-color: #4caf50;
+  color: #fff;
+  &:hover{
+    background-color: #45a049;
+  }
+}
+
+.table-container {
+  margin-block-start: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+} 
+
+
